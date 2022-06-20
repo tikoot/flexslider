@@ -6,5 +6,12 @@
 
 
 $(window).on('load',function() {
-    $('.flexslider').flexslider(); 
-  });
+    $('.flexslider').flexslider({
+        // built in plugin
+        animation: "slide" ,
+        slideShowSpeed : 2000,
+        reverse : true,
+        pauseOnHover: true
+
+    }); 
+});
